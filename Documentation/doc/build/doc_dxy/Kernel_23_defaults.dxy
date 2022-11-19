@@ -1,0 +1,27 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Kernel_23
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Kernel_23/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Kernel_23.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Kernel_23/doc/Kernel_23/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Kernel_23/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Kernel_23/doc/Kernel_23/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Kernel_23/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Kernel_23/doc/Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_d.tag=../Kernel_d
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polygon.tag=../Polygon
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Convex_hull_2.tag=../Convex_hull_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Triangulation_2.tag=../Triangulation_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Mesh_2.tag=../Mesh_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Number_types.tag=../Number_types
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Barycentric_coordinates_2.tag=../Barycentric_coordinates_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Algebraic_foundations.tag=../Algebraic_foundations
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Circular_kernel_2.tag=../Circular_kernel_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Circular_kernel_3.tag=../Circular_kernel_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polyhedron.tag=../Polyhedron
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Weights.tag=../Weights
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Kernel_23/doc/Kernel_23/fig

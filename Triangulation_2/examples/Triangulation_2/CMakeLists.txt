@@ -6,6 +6,9 @@ project(Triangulation_2_Examples)
 
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
 
+# VITAL cgal examples can't properly use the const mpfr_srcptr feature so that have to add this -fpermissive flag to it
+set(CMAKE_CXX_FLAGS "-fpermissive")
+
 # create a target per cppfile
 file(
   GLOB cppfiles

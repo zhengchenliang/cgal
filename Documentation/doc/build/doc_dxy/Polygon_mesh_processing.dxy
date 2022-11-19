@@ -1,0 +1,24 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Polygon_mesh_processing_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Polygon Mesh Processing"
+# custom options for this package
+EXTRACT_ALL                =  false
+HIDE_UNDOC_CLASSES         =  true
+WARN_IF_UNDOCUMENTED       =  false
+
+INPUT += /root/D2_math_geom/cgal_me/Polygon_mesh_processing/include//CGAL/Polygon_mesh_processing/IO/polygon_mesh_io.h
+INPUT += /root/D2_math_geom/cgal_me/Mesh_3/include/CGAL/Polygon_mesh_processing/surface_Delaunay_remeshing.h \
+         /root/D2_math_geom/cgal_me/Mesh_3/include/CGAL/Mesh_facet_topology.h
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Mesh_3/include
+
+# macros to be used inside the code
+ALIASES += "cgalDescribePolylineType=A polyline is defined as a sequence of points, each pair of contiguous points defines a segment of the polyline. If the first and last points of the polyline are identical, the polyline is closed."
+
+EXAMPLE_PATH += /root/D2_math_geom/cgal_me/Poisson_surface_reconstruction_3/examples
+
+EXCLUDE = /root/D2_math_geom/cgal_me/Polygon_mesh_processing/include//CGAL/Polygon_mesh_processing/internal
+EXCLUDE_SYMBOLS += experimental
+
+HTML_EXTRA_FILES           = /root/D2_math_geom/cgal_me/Polygon_mesh_processing/doc/Polygon_mesh_processing/fig/selfintersections.jpg \
+                             /root/D2_math_geom/cgal_me/Polygon_mesh_processing/doc/Polygon_mesh_processing/fig/mesh_smoothing.png \
+                             /root/D2_math_geom/cgal_me/Polygon_mesh_processing/doc/Polygon_mesh_processing/fig/shape_smoothing.png

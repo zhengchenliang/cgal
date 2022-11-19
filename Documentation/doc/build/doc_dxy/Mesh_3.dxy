@@ -1,0 +1,40 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Mesh_3_defaults.dxy
+
+# macros to be used inside the code
+ALIASES += "cgalDescribePolylineType=A polyline is defined as a sequence of points, each pair of contiguous points defines a segment of the polyline. If the first and last points of the polyline are identical, the polyline is closed."
+
+INPUT += \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Polyhedral_complex_mesh_domain_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_domain_with_polyline_features_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_3/generate_label_weights.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/exude_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/odt_optimize_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/lloyd_optimize_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/perturb_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/refine_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/make_mesh_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Labeled_mesh_domain_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_criteria_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_facet_topology.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_vertex_base_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Mesh_cell_base_3.h \
+      /root/D2_math_geom/cgal_me/Mesh_3/include//CGAL/Compact_mesh_cell_base_3.h
+
+PROJECT_NAME = "CGAL 5.6 - 3D Mesh Generation"
+HTML_EXTRA_FILES           =  /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/implicit_domain_3.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/implicit_domain_4.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/implicit_domain_5.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/no-protection.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/protection-box.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/protection-all.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/no-custom-init.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/with-custom-init.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/hybrid_domain.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/hybrid_domain_mesh_no_protection.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/hybrid_domain_mesh_protection.jpg \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/protection-complex.png \
+                              /root/D2_math_geom/cgal_me/Mesh_3/doc/Mesh_3/fig/no-protection-complex.png
+
+EXAMPLE_PATH += /root/D2_math_geom/cgal_me/Mesh_3/include/ # non-documented headers are advertised
+
+EXCLUDE_SYMBOLS += details

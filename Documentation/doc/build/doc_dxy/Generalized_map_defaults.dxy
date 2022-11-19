@@ -1,0 +1,23 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Generalized_map
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Generalized_map/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Generalized_map.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Generalized_map/doc/Generalized_map/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Generalized_map/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Generalized_map/doc/Generalized_map/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Generalized_map/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Generalized_map/doc/Generalized_map
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Algebraic_foundations.tag=../Algebraic_foundations
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Circulator.tag=../Circulator
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Stream_support.tag=../Stream_support
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/HalfedgeDS.tag=../HalfedgeDS
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polyhedron.tag=../Polyhedron
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Combinatorial_map.tag=../Combinatorial_map
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Linear_cell_complex.tag=../Linear_cell_complex
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Generalized_map/doc/Generalized_map/fig

@@ -1,0 +1,7 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Number_types_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Number Types"
+INPUT += /root/D2_math_geom/cgal_me/Number_types/include//CGAL/Exact_integer.h \
+         /root/D2_math_geom/cgal_me/Number_types/include//CGAL/Exact_rational.h
+
+SHOW_FILES = YES

@@ -1,0 +1,33 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Stream_support
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Stream_support/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Stream_support.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Stream_support/doc/Stream_support/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Stream_support/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Stream_support/doc/Stream_support/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Stream_support/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Stream_support/doc/Stream_support
+INPUT += /root/D2_math_geom/cgal_me/Stream_support/include/
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Alpha_shapes_3.tag=../Alpha_shapes_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Arrangement_on_surface_2.tag=../Arrangement_on_surface_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/BGL.tag=../BGL
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Mesh_2.tag=../Mesh_2
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Mesh_3.tag=../Mesh_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Nef_3.tag=../Nef_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polyhedron.tag=../Polyhedron
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polygon.tag=../Polygon
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polygon_mesh_processing.tag=../Polygon_mesh_processing
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Point_set_3.tag=../Point_set_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Point_set_processing_3.tag=../Point_set_processing_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesh.tag=../Surface_mesh
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesher.tag=../Surface_mesher
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/SMDS_3.tag=../SMDS_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Triangulation.tag=../Triangulation
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Triangulation_2.tag=../Triangulation_2
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Stream_support/doc/Stream_support/fig

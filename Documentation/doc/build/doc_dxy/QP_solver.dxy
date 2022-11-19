@@ -1,0 +1,5 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/QP_solver_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Linear and Quadratic Programming Solver"
+
+EXCLUDE = /root/D2_math_geom/cgal_me/QP_solver/doc/QP_solver/fig_src

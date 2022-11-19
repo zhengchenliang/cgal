@@ -1,0 +1,14 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Optimal_bounding_box_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Optimal Bounding Box"
+EXTRACT_ALL                =  false
+HIDE_UNDOC_CLASSES         =  true
+WARN_IF_UNDOCUMENTED       =  true
+
+EXCLUDE = /root/D2_math_geom/cgal_me/Optimal_bounding_box/include//CGAL/Optimal_bounding_box/internal
+EXCLUDE_SYMBOLS += experimental
+
+HTML_EXTRA_FILES           =  /root/D2_math_geom/cgal_me/Optimal_bounding_box/doc/Optimal_bounding_box/fig/aabb_vs_obb.jpg \
+                              /root/D2_math_geom/cgal_me/Optimal_bounding_box/doc/Optimal_bounding_box/fig/obb_chess.png \
+                              /root/D2_math_geom/cgal_me/Optimal_bounding_box/doc/Optimal_bounding_box/fig/obb_time.png \
+                              /root/D2_math_geom/cgal_me/Optimal_bounding_box/doc/Optimal_bounding_box/fig/ch_speedup.png

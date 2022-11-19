@@ -1,0 +1,12 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Hyperbolic_triangulation_2_defaults.dxy
+
+EXTRACT_PRIVATE = NO
+
+PROJECT_NAME = "CGAL 5.6 - 2D Hyperbolic Delaunay Triangulations"
+
+HTML_EXTRA_STYLESHEET = /root/D2_math_geom/cgal_me/Hyperbolic_triangulation_2/doc/Hyperbolic_triangulation_2/css/customstyle.css
+
+HTML_EXTRA_FILES = 	/root/D2_math_geom/cgal_me/Hyperbolic_triangulation_2/doc/Hyperbolic_triangulation_2/fig/ht-empty-disks.svg \
+					/root/D2_math_geom/cgal_me/Hyperbolic_triangulation_2/doc/Hyperbolic_triangulation_2/fig/poincare-disk.svg \
+					/root/D2_math_geom/cgal_me/Hyperbolic_triangulation_2/doc/Hyperbolic_triangulation_2/fig/header.png \
+					/root/D2_math_geom/cgal_me/Hyperbolic_triangulation_2/doc/Hyperbolic_triangulation_2/fig/hyperbolic-vs-euclidean.svg

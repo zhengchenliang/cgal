@@ -1,0 +1,23 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Surface_mesh_deformation
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Surface_mesh_deformation/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Surface_mesh_deformation.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Surface_mesh_deformation/doc/Surface_mesh_deformation/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Surface_mesh_deformation/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Surface_mesh_deformation/doc/Surface_mesh_deformation/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Surface_mesh_deformation/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Surface_mesh_deformation/doc/Surface_mesh_deformation
+INPUT += /root/D2_math_geom/cgal_me/Surface_mesh_deformation/include/
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Algebraic_foundations.tag=../Algebraic_foundations
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Circulator.tag=../Circulator
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Stream_support.tag=../Stream_support
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polyhedron.tag=../Polyhedron
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/BGL.tag=../BGL
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Solver_interface.tag=../Solver_interface
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Surface_mesh_deformation/doc/Surface_mesh_deformation/fig

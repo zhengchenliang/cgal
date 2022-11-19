@@ -1,0 +1,20 @@
+@INCLUDE 				= /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Periodic_4_hyperbolic_triangulation_2_defaults.dxy
+
+EXTRACT_ALL  			= YES
+EXTRACT_LOCAL_CLASSES  	= YES
+INHERIT_DOCS           	= YES
+
+HTML_EXTRA_FILES = 	/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/octagon_identification.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/original_domain.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/periodicity.png \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/dt-construction.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/periodic_face.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/ds_cgal.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/dummy-points.png \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/non-triangulation.svg \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/histogram-dummy-points.png \
+					/root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/fig/new-triangulation-350px.png
+
+HTML_EXTRA_STYLESHEET = /root/D2_math_geom/cgal_me/Periodic_4_hyperbolic_triangulation_2/doc/Periodic_4_hyperbolic_triangulation_2/css/customstyle.css
+
+PROJECT_NAME 			= "CGAL 5.6 - 2D Periodic Hyperbolic Triangulations"

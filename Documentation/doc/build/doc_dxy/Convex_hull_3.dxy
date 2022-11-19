@@ -1,0 +1,4 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Convex_hull_3_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - 3D Convex Hulls"
+INPUT += /root/D2_math_geom/cgal_me/Convex_hull_3/include//CGAL/Convex_hull_3/dual/halfspace_intersection_interior_point_3.h

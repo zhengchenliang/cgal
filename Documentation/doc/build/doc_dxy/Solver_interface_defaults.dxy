@@ -1,0 +1,26 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Solver_interface
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Solver_interface/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Solver_interface.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Solver_interface/doc/Solver_interface/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Solver_interface/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Solver_interface/doc/Solver_interface/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Solver_interface/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Solver_interface/doc/Solver_interface
+INPUT += /root/D2_math_geom/cgal_me/Solver_interface/include/
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Algebraic_foundations.tag=../Algebraic_foundations
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Miscellany.tag=../Miscellany
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesh_parameterization.tag=../Surface_mesh_parameterization
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesh_skeletonization.tag=../Surface_mesh_skeletonization
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesh_deformation.tag=../Surface_mesh_deformation
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Jet_fitting_3.tag=../Jet_fitting_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Poisson_surface_reconstruction_3.tag=../Poisson_surface_reconstruction_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Polygonal_surface_reconstruction.tag=../Polygonal_surface_reconstruction
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/QP_solver.tag=../QP_solver
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Solver_interface/doc/Solver_interface/fig

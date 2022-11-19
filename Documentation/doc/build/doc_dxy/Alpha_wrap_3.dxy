@@ -1,0 +1,20 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Alpha_wrap_3_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - 3D Alpha Wrapping"
+
+# custom options for this package
+EXTRACT_ALL                =  false
+HIDE_UNDOC_MEMBERS         =  true
+HIDE_UNDOC_CLASSES         =  true
+
+HTML_EXTRA_FILES       = /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_bike_lod.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_triangle_soup.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_non_manifold_cases.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_pencil.png \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_steps.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_church_lod.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_sharp_feature.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_steiner.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_alpha_offset_bike.jpg \
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_double_sided.jpg \ 
+                         /root/D2_math_geom/cgal_me/Alpha_wrap_3/doc/Alpha_wrap_3/fig/aw3_thingi10k_benchmark.jpg

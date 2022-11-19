@@ -1,0 +1,20 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/STL_Extension
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/STL_Extension/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/STL_Extension.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/STL_Extension/doc/STL_Extension/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/STL_Extension/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/STL_Extension/doc/STL_Extension/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/STL_Extension/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/STL_Extension/doc/STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Circulator.tag=../Circulator
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Number_types.tag=../Number_types
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Miscellany.tag=../Miscellany
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Surface_mesh.tag=../Surface_mesh
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/BGL.tag=../BGL
+IMAGE_PATH += /root/D2_math_geom/cgal_me/STL_Extension/doc/STL_Extension/fig

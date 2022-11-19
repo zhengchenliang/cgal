@@ -1,0 +1,7 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Surface_mesh_skeletonization_defaults.dxy
+ 
+PROJECT_NAME = "CGAL 5.6 - Triangulated Surface Mesh Skeletonization"
+EXTRACT_ALL                =  false
+HIDE_UNDOC_MEMBERS         =  true
+HIDE_UNDOC_CLASSES         =  true
+MULTILINE_CPP_IS_BRIEF = YES

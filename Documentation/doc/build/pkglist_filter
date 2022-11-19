@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec  /root/D2_math_geom/cgal_me/Documentation/doc/build/pkglist_filter.py "$1"

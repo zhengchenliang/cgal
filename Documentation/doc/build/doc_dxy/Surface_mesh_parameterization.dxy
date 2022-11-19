@@ -1,0 +1,18 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Surface_mesh_parameterization_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Planar Parameterization of Triangulated Surface Meshes"
+EXTRACT_ALL                =  false
+HIDE_UNDOC_MEMBERS         =  true
+HIDE_UNDOC_CLASSES         =  true
+WARN_IF_UNDOCUMENTED       =  false
+
+HTML_EXTRA_FILES           =  /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/nefertiti.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/ARAP_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/orbifold_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/uniform_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/LSCM_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/conformal_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/authalic_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/iterative_authalic.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/floater_new.jpg \
+                              /root/D2_math_geom/cgal_me/Surface_mesh_parameterization/doc/Surface_mesh_parameterization/fig/hand_base.jpg \

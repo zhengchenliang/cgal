@@ -1,0 +1,37 @@
+# this package is a little peculiar and different from the other packages
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Documentation_defaults.dxy
+PROJECT_NAME = "CGAL 5.6 - Manual"
+PROJECT_BRIEF       =
+OUTPUT_DIRECTORY    = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Manual
+
+INPUT = /root/D2_math_geom/cgal_me/Documentation/doc/Documentation \
+        /root/D2_math_geom/cgal_me/Documentation/doc/build/how_to_cite_cgal.txt
+
+HTML_HEADER         = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/header.html
+LAYOUT_FILE         = /root/D2_math_geom/cgal_me/Documentation/doc/resources/1.9.3/DoxygenLayout.xml
+GENERATE_TAGFILE    = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Manual.tag
+EXAMPLE_PATH        = /root/D2_math_geom/cgal_me/Convex_hull_2/examples \
+                      /root/D2_math_geom/cgal_me/Kernel_23/examples \
+                      /root/D2_math_geom/cgal_me/Poisson_surface_reconstruction_3/examples \
+                      /root/D2_math_geom/cgal_me/Surface_mesh/examples \
+                      /root/D2_math_geom/cgal_me/Classification/examples
+FILTER_PATTERNS     = *.txt=/root/D2_math_geom/cgal_me/Documentation/doc/build/pkglist_filter
+
+HTML_EXTRA_FILES += /root/D2_math_geom/cgal_me/Documentation/doc/resources/1.9.3/hacks.js \
+                    /root/D2_math_geom/cgal_me/Documentation/doc/resources/1.9.3/menu_version.js \
+                    /root/D2_math_geom/cgal_me/Documentation/doc/resources/1.9.3/cgal_stylesheet.css \
+                    /root/D2_math_geom/cgal_me/Documentation/doc/build/how_to_cite_cgal.bib \
+                    /root/D2_math_geom/cgal_me/Documentation/doc/build/how_to_cite.html \
+                    /root/D2_math_geom/cgal_me/Documentation/doc/Documentation/fig/g-196x196-doc.png
+
+ALLEXTERNALS             = true
+EXTERNAL_GROUPS          = false
+GENERATE_TODOLIST        = false
+GENERATE_DEPRECATEDLIST  = false
+GENERATE_TESTLIST        = false
+GENERATE_BUGLIST         = false
+SEARCHENGINE             = true
+
+ALIASES                 += "cgalPkgDescriptionBegin{2}=\subsection \2 \1"
+ALIASES                 += "cgalPkgManuals{2}=<div class=\"PkgManuals\"> <span> \ref \1 \"User Manual\" </span> <span style=\"padding-left: 20px;\">\ref \2 \"Reference Manual\" </span> </div>"
+ALIASES                 += "cgalReleaseNumber =5.6"

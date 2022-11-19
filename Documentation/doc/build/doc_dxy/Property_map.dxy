@@ -1,0 +1,6 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Property_map_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - CGAL and Boost Property Maps"
+INPUT += /root/D2_math_geom/cgal_me/Property_map/include//CGAL/property_map.h
+EXCLUDE += /root/D2_math_geom/cgal_me/Property_map/include//CGAL/Dynamic_property_map.h
+EXAMPLE_PATH += /root/D2_math_geom/cgal_me/Point_set_processing_3/examples

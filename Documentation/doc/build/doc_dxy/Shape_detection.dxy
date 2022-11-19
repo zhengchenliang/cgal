@@ -1,0 +1,7 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Shape_detection_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Shape Detection"
+EXTRACT_ALL                =  NO
+HIDE_UNDOC_CLASSES         =  YES
+WARN_IF_UNDOCUMENTED       =  NO
+PREDEFINED                 =  DOXYGEN_NS

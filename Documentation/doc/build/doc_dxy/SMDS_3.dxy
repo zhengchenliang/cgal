@@ -1,0 +1,12 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/SMDS_3_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - 3D Simplicial Mesh Data Structures"
+
+#custom options
+EXTRACT_ALL                     =  false
+HIDE_UNDOC_CLASSES      =  true
+HIDE_UNDOC_MEMBERS     =  true
+WARN_IF_UNDOCUMENTED =  false
+
+EXCLUDE = /root/D2_math_geom/cgal_me/SMDS_3/include//CGAL/internal/SMDS_3
+

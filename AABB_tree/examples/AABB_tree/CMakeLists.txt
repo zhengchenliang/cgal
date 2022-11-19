@@ -6,6 +6,9 @@ project(AABB_tree_Examples)
 
 find_package(CGAL REQUIRED)
 
+#
+set(CMAKE_CXX_FLAGS "-fpermissive")
+
 # create a target per cppfile
 file(
   GLOB cppfiles

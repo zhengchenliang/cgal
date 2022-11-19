@@ -1,0 +1,15 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Circulator
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Circulator/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Circulator.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Circulator/doc/Circulator/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Circulator/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Circulator/doc/Circulator/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Circulator/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Circulator/doc/Circulator
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Circulator/doc/Circulator/fig

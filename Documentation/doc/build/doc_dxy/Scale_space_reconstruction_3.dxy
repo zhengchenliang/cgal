@@ -1,0 +1,6 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Scale_space_reconstruction_3_defaults.dxy
+
+PROJECT_NAME		 = "CGAL 5.6 - Scale-Space Surface Reconstruction"
+EXTRACT_ALL		=  NO
+HIDE_UNDOC_CLASSES	=  YES
+HIDE_UNDOC_MEMBERS	=  YES

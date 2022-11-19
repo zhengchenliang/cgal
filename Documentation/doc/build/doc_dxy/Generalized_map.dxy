@@ -1,0 +1,4 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Generalized_map_defaults.dxy
+
+PROJECT_NAME                       =  "CGAL  - Generalized Maps"
+

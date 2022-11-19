@@ -1,0 +1,7 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Stream_support_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - IO Streams"
+
+EXTRACT_ALL                =  false
+HIDE_UNDOC_MEMBERS         =  true
+HIDE_UNDOC_CLASSES         =  true

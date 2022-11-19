@@ -1,0 +1,23 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/BaseDoxyfile
+OUTPUT_DIRECTORY = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_output/Scale_space_reconstruction_3
+HTML_OUTPUT = .
+EXAMPLE_PATH = /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/examples
+GENERATE_TAGFILE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_gen_tags/Scale_space_reconstruction_3.tag
+STRIP_FROM_PATH = /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/doc/Scale_space_reconstruction_3/
+STRIP_FROM_PATH += /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/include/
+STRIP_FROM_INC_PATH = /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/doc/Scale_space_reconstruction_3/
+STRIP_FROM_INC_PATH += /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/include/
+ALIASES += "cgalPkgDescriptionBegin{2}=\details "
+ALIASES += "cgalPkgManuals{2}=<div class=\"PkgManuals\"></div>"
+INPUT = /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/doc/Scale_space_reconstruction_3
+INPUT += /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/include/
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Manual.tag=../Manual
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Kernel_23.tag=../Kernel_23
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/STL_Extension.tag=../STL_Extension
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Triangulation_3.tag=../Triangulation_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Alpha_shapes_3.tag=../Alpha_shapes_3
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Spatial_searching.tag=../Spatial_searching
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Solver_interface.tag=../Solver_interface
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Advancing_front_surface_reconstruction.tag=../Advancing_front_surface_reconstruction
+TAGFILES += /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_tags/Point_set_processing_3.tag=../Point_set_processing_3
+IMAGE_PATH += /root/D2_math_geom/cgal_me/Scale_space_reconstruction_3/doc/Scale_space_reconstruction_3/fig

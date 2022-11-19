@@ -3,6 +3,8 @@ project(Triangulation_3_Examples)
 
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
 
+set(CMAKE_CXX_FLAGS "-fpermissive")
+
 include_directories(BEFORE "../../include")
 
 create_single_source_cgal_program("for_loop.cpp")

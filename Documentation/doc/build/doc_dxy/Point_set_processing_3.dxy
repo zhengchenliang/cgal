@@ -1,0 +1,4 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Point_set_processing_3_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - Point Set Processing"
+EXCLUDE_PATTERNS          +=  property_map.h

@@ -1,0 +1,7 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Circular_kernel_3_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - 3D Spherical Geometry Kernel"
+SORT_GROUP_NAMES           =  true
+
+
+

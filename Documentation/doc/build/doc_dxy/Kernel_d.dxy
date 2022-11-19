@@ -1,0 +1,4 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/Kernel_d_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - dD Geometry Kernel"
+SORT_GROUP_NAMES           =  true

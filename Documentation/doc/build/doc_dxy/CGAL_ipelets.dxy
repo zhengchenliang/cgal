@@ -1,0 +1,4 @@
+@INCLUDE = /root/D2_math_geom/cgal_me/Documentation/doc/build/doc_dxy/CGAL_ipelets_defaults.dxy
+
+PROJECT_NAME = "CGAL 5.6 - CGAL Ipelets"
+EXAMPLE_PATH += /root/D2_math_geom/cgal_me/CGAL_ipelets/demo
