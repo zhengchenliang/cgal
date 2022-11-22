@@ -1,5 +1,6 @@
 /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/CGAL_Qt5_moc_and_resources_autogen/34EZIPZFLO/moc_image_interface.cpp: /usr/local/include/CGAL/Qt/image_interface.h \
   /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/CGAL_Qt5_moc_and_resources_autogen/moc_predefs.h \
+  /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/ui_ImageInterface.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -409,6 +410,8 @@
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
+  /usr/include/qt/QtCore/QVariant \
+  /usr/include/qt/QtCore/qabstractitemmodel.h \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -452,6 +455,7 @@
   /usr/include/qt/QtCore/qrect.h \
   /usr/include/qt/QtCore/qrefcount.h \
   /usr/include/qt/QtCore/qregexp.h \
+  /usr/include/qt/QtCore/qregularexpression.h \
   /usr/include/qt/QtCore/qscopedpointer.h \
   /usr/include/qt/QtCore/qshareddata.h \
   /usr/include/qt/QtCore/qsharedpointer.h \
@@ -478,6 +482,7 @@
   /usr/include/qt/QtGui/qfontinfo.h \
   /usr/include/qt/QtGui/qfontmetrics.h \
   /usr/include/qt/QtGui/qguiapplication.h \
+  /usr/include/qt/QtGui/qicon.h \
   /usr/include/qt/QtGui/qimage.h \
   /usr/include/qt/QtGui/qinputmethod.h \
   /usr/include/qt/QtGui/qkeysequence.h \
@@ -493,13 +498,44 @@
   /usr/include/qt/QtGui/qtgui-config.h \
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtransform.h \
+  /usr/include/qt/QtGui/qvalidator.h \
   /usr/include/qt/QtGui/qwindowdefs.h \
   /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QCheckBox \
+  /usr/include/qt/QtWidgets/QComboBox \
   /usr/include/qt/QtWidgets/QDialog \
+  /usr/include/qt/QtWidgets/QDoubleSpinBox \
+  /usr/include/qt/QtWidgets/QGridLayout \
+  /usr/include/qt/QtWidgets/QHBoxLayout \
+  /usr/include/qt/QtWidgets/QLabel \
+  /usr/include/qt/QtWidgets/QPushButton \
+  /usr/include/qt/QtWidgets/QSpacerItem \
+  /usr/include/qt/QtWidgets/QSpinBox \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
+  /usr/include/qt/QtWidgets/qabstractslider.h \
+  /usr/include/qt/QtWidgets/qabstractspinbox.h \
   /usr/include/qt/QtWidgets/qapplication.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qcheckbox.h \
+  /usr/include/qt/QtWidgets/qcombobox.h \
   /usr/include/qt/QtWidgets/qdialog.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
+  /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qrubberband.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
+  /usr/include/qt/QtWidgets/qslider.h \
+  /usr/include/qt/QtWidgets/qspinbox.h \
+  /usr/include/qt/QtWidgets/qstyle.h \
+  /usr/include/qt/QtWidgets/qstyleoption.h \
+  /usr/include/qt/QtWidgets/qtabbar.h \
+  /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
   /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
   /usr/include/qt/QtWidgets/qwidget.h \

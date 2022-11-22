@@ -1,5 +1,6 @@
 /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/CGAL_Qt5_moc_and_resources_autogen/34EZIPZFLO/moc_qglviewer.cpp: /usr/local/include/CGAL/Qt/qglviewer.h \
   /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/CGAL_Qt5_moc_and_resources_autogen/moc_predefs.h \
+  /root/D2_math_geom/cgal_me/Triangulation_3/examples/Triangulation_3/ui_ImageInterface.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -447,8 +448,10 @@
   /usr/include/qt/QtCore/QTextStream \
   /usr/include/qt/QtCore/QTimer \
   /usr/include/qt/QtCore/QUrl \
+  /usr/include/qt/QtCore/QVariant \
   /usr/include/qt/QtCore/QVector \
   /usr/include/qt/QtCore/QtAlgorithms \
+  /usr/include/qt/QtCore/qabstractitemmodel.h \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/qt/QtCore/qatomic.h \
@@ -501,6 +504,7 @@
   /usr/include/qt/QtCore/qrect.h \
   /usr/include/qt/QtCore/qrefcount.h \
   /usr/include/qt/QtCore/qregexp.h \
+  /usr/include/qt/QtCore/qregularexpression.h \
   /usr/include/qt/QtCore/qscopedpointer.h \
   /usr/include/qt/QtCore/qset.h \
   /usr/include/qt/QtCore/qshareddata.h \
@@ -582,6 +586,7 @@
   /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtGui/qtouchdevice.h \
   /usr/include/qt/QtGui/qtransform.h \
+  /usr/include/qt/QtGui/qvalidator.h \
   /usr/include/qt/QtGui/qvector2d.h \
   /usr/include/qt/QtGui/qvector3d.h \
   /usr/include/qt/QtGui/qvector4d.h \
@@ -591,26 +596,51 @@
   /usr/include/qt/QtOpenGL/qglcolormap.h \
   /usr/include/qt/QtOpenGL/qtopenglglobal.h \
   /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QCheckBox \
   /usr/include/qt/QtWidgets/QColorDialog \
+  /usr/include/qt/QtWidgets/QComboBox \
   /usr/include/qt/QtWidgets/QDialog \
+  /usr/include/qt/QtWidgets/QDoubleSpinBox \
   /usr/include/qt/QtWidgets/QFileDialog \
+  /usr/include/qt/QtWidgets/QGridLayout \
+  /usr/include/qt/QtWidgets/QHBoxLayout \
+  /usr/include/qt/QtWidgets/QLabel \
   /usr/include/qt/QtWidgets/QMessageBox \
   /usr/include/qt/QtWidgets/QOpenGLWidget \
   /usr/include/qt/QtWidgets/QPushButton \
+  /usr/include/qt/QtWidgets/QSpacerItem \
+  /usr/include/qt/QtWidgets/QSpinBox \
   /usr/include/qt/QtWidgets/QTabWidget \
   /usr/include/qt/QtWidgets/QTextEdit \
+  /usr/include/qt/QtWidgets/QVBoxLayout \
   /usr/include/qt/QtWidgets/QWidget \
   /usr/include/qt/QtWidgets/qabstractbutton.h \
+  /usr/include/qt/QtWidgets/qabstractitemdelegate.h \
   /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+  /usr/include/qt/QtWidgets/qabstractslider.h \
+  /usr/include/qt/QtWidgets/qabstractspinbox.h \
   /usr/include/qt/QtWidgets/qapplication.h \
+  /usr/include/qt/QtWidgets/qboxlayout.h \
+  /usr/include/qt/QtWidgets/qcheckbox.h \
   /usr/include/qt/QtWidgets/qcolordialog.h \
+  /usr/include/qt/QtWidgets/qcombobox.h \
   /usr/include/qt/QtWidgets/qdialog.h \
   /usr/include/qt/QtWidgets/qfiledialog.h \
   /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/qgridlayout.h \
+  /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qlayout.h \
+  /usr/include/qt/QtWidgets/qlayoutitem.h \
   /usr/include/qt/QtWidgets/qmessagebox.h \
   /usr/include/qt/QtWidgets/qopenglwidget.h \
   /usr/include/qt/QtWidgets/qpushbutton.h \
+  /usr/include/qt/QtWidgets/qrubberband.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
+  /usr/include/qt/QtWidgets/qslider.h \
+  /usr/include/qt/QtWidgets/qspinbox.h \
+  /usr/include/qt/QtWidgets/qstyle.h \
+  /usr/include/qt/QtWidgets/qstyleoption.h \
+  /usr/include/qt/QtWidgets/qtabbar.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtWidgets/qtextedit.h \
   /usr/include/qt/QtWidgets/qtwidgets-config.h \
